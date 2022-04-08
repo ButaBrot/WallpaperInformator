@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32317.152
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WallpaperInformator.WallpaperChanger", "WallpaperInformator.WallpaperChanger\WallpaperInformator.WallpaperChanger.csproj", "{1FDF275F-8475-4B62-93FC-00F250BE04CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WallpaperInformator.Tests", "WallpaperInformator.Tests\WallpaperInformator.Tests.csproj", "{D7952B6B-090B-402C-8CFB-33D080E07561}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1FDF275F-8475-4B62-93FC-00F250BE04CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FDF275F-8475-4B62-93FC-00F250BE04CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FDF275F-8475-4B62-93FC-00F250BE04CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FDF275F-8475-4B62-93FC-00F250BE04CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7952B6B-090B-402C-8CFB-33D080E07561}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7952B6B-090B-402C-8CFB-33D080E07561}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7952B6B-090B-402C-8CFB-33D080E07561}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7952B6B-090B-402C-8CFB-33D080E07561}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {88887D35-5C05-4DEA-B9B9-3E88639D1C53}
+	EndGlobalSection
+EndGlobal
