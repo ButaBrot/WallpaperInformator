@@ -12,26 +12,26 @@ namespace WallpaperInformator.WallpaperChanger
 
     public class WallpaperChange : IWallpaperChange
     {
-        private IDesktopWallpaper desktopWallpaper;
+        private readonly IDesktopWallpaper _desktopWallpaper;
 
         public WallpaperChange()
         {
-            desktopWallpaper = (IDesktopWallpaper)new DesktopWallpaper();
+            _desktopWallpaper = (IDesktopWallpaper)new DesktopWallpaper();
         }
 
         public void SetMonitorWallpaper(int monitorIndex, string pathToWallpaper)
         {
-            string monitorId = GetMonitorDevicePath((uint)monitorIndex);
+            var monitorId = GetMonitorDevicePath((uint)monitorIndex);
             SetWallpaper(pathToWallpaper,monitorId);
         }
         private void SetWallpaper(string pathToWallpaper, string monitorID)
         {
-            desktopWallpaper.SetWallpaper(monitorID, pathToWallpaper);
+            _desktopWallpaper.SetWallpaper(monitorID, pathToWallpaper);
         }
 
         private string GetMonitorDevicePath(uint monitorIndex)
         {
-            desktopWallpaper.GetMonitorDevicePathAt(monitorIndex, out PWSTR monitorIdNative);
+            _desktopWallpaper.GetMonitorDevicePathAt(monitorIndex, out PWSTR monitorIdNative);
             return monitorIdNative.ToString();
         }
     }

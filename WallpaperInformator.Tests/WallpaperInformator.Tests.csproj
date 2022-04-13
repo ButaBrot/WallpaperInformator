@@ -21,6 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\WallpaperInformator.TextDrawer\WallpaperInformator.TextDrawer.csproj" />
     <ProjectReference Include="..\WallpaperInformator.WallpaperChanger\WallpaperInformator.WallpaperChanger.csproj" />
   </ItemGroup>
 

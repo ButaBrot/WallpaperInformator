@@ -3,9 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32317.152
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WallpaperInformator.WallpaperChanger", "WallpaperInformator.WallpaperChanger\WallpaperInformator.WallpaperChanger.csproj", "{1FDF275F-8475-4B62-93FC-00F250BE04CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WallpaperInformator.WallpaperChanger", "WallpaperInformator.WallpaperChanger\WallpaperInformator.WallpaperChanger.csproj", "{1FDF275F-8475-4B62-93FC-00F250BE04CC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WallpaperInformator.Tests", "WallpaperInformator.Tests\WallpaperInformator.Tests.csproj", "{D7952B6B-090B-402C-8CFB-33D080E07561}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WallpaperInformator.Tests", "WallpaperInformator.Tests\WallpaperInformator.Tests.csproj", "{D7952B6B-090B-402C-8CFB-33D080E07561}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WallpaperInformator.TextDrawer", "WallpaperInformator.TextDrawer\WallpaperInformator.TextDrawer.csproj", "{9F8C7C10-DBE7-49C9-90BE-221DE3CB7549}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WallpaperConsole", "WallpaperConsole\WallpaperConsole.csproj", "{9A9517DA-6FCE-4361-BD5F-B7C6E21A5286}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WallpaperInformator.DataAccess.Entities", "WallpaperInformator.DataAccess.Entities\WallpaperInformator.DataAccess.Entities.csproj", "{59EA45FB-EF08-40BD-8AD6-58866F50BABC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WallpaperInformator.DataAccess", "WallpaperInformator.DataAccess\WallpaperInformator.DataAccess.csproj", "{238630E8-A735-4D7A-AAC5-CFB9265A7C5F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +29,22 @@ Global
 		{D7952B6B-090B-402C-8CFB-33D080E07561}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7952B6B-090B-402C-8CFB-33D080E07561}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7952B6B-090B-402C-8CFB-33D080E07561}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F8C7C10-DBE7-49C9-90BE-221DE3CB7549}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F8C7C10-DBE7-49C9-90BE-221DE3CB7549}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F8C7C10-DBE7-49C9-90BE-221DE3CB7549}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F8C7C10-DBE7-49C9-90BE-221DE3CB7549}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A9517DA-6FCE-4361-BD5F-B7C6E21A5286}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A9517DA-6FCE-4361-BD5F-B7C6E21A5286}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A9517DA-6FCE-4361-BD5F-B7C6E21A5286}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A9517DA-6FCE-4361-BD5F-B7C6E21A5286}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59EA45FB-EF08-40BD-8AD6-58866F50BABC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59EA45FB-EF08-40BD-8AD6-58866F50BABC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59EA45FB-EF08-40BD-8AD6-58866F50BABC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59EA45FB-EF08-40BD-8AD6-58866F50BABC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{238630E8-A735-4D7A-AAC5-CFB9265A7C5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{238630E8-A735-4D7A-AAC5-CFB9265A7C5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{238630E8-A735-4D7A-AAC5-CFB9265A7C5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{238630E8-A735-4D7A-AAC5-CFB9265A7C5F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
