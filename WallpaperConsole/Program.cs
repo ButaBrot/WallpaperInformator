@@ -27,7 +27,7 @@ class Program
         var weatherRepo = Services.GetRequiredService<OpenWeatherRepo>();
         // var weather     = await weatherRepo.GetWeather();
         // var location    = await weatherRepo.GetLocationByName("Paris");
-        var weather = await weatherRepo.GetWeatherByName("Wladiwostok");
+        var weather = await weatherRepo.GetWeatherData();
         // TextDrawer textdrawer = new TextDrawer();
         // textdrawer.SetWallpaper();
        }

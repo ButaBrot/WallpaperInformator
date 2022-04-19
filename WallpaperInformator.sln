@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WallpaperInformator.DataAcc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WallpaperInformator.DataAccess", "WallpaperInformator.DataAccess\WallpaperInformator.DataAccess.csproj", "{238630E8-A735-4D7A-AAC5-CFB9265A7C5F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WallpaperInformator.Business", "WallpaperInformator.Business\WallpaperInformator.Business.csproj", "{532F52EA-CE08-4156-A064-C540D7522303}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{238630E8-A735-4D7A-AAC5-CFB9265A7C5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{238630E8-A735-4D7A-AAC5-CFB9265A7C5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{238630E8-A735-4D7A-AAC5-CFB9265A7C5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{532F52EA-CE08-4156-A064-C540D7522303}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{532F52EA-CE08-4156-A064-C540D7522303}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{532F52EA-CE08-4156-A064-C540D7522303}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{532F52EA-CE08-4156-A064-C540D7522303}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

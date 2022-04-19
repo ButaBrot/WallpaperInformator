@@ -9,15 +9,12 @@ public class TextDrawer
 {
     private RichString SetText(string text)
     {
-        var textToDraw = new RichString()
+        return new RichString()
             .Alignment(TextAlignment.Center)
             .TextColor(SKColors.DimGray)
             .FontFamily("Inverkrug")
             .FontSize(80)
             .Add($"{text}");
-
-
-        return textToDraw;
     }
 
     private SKData GetSKImage(RichString text)
